@@ -1,0 +1,171 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/* ---------------------------
+  common styles or uttilites
+  --------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.button-primary {
+    font-size: 20px;
+    color: #ffffff;
+    background: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+
+/* --------------------------
+header menu and logo styles 
+----------------------------*/
+
+.header-nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 45px;
+    color: #131313;
+}
+
+.menu-items ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-transform: capitalize;
+}
+
+/* --------------------------
+header brand new section styles 
+----------------------------*/
+.brand-new-section {
+    width: 862px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.brand-new-items {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.brand-title {
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.brand-description {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+/* banner section styles */
+.banner-section {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+.banner-section img {
+    width: 1040px;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* footer copy write section styles */
+.copy-write-section {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.copy-write-text {
+    width: 1040px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
+
+/* Mobile Responsive section */
+
+@media only screen and (max-width: 576px) {
+
+    .header-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .menu-items ul li {
+        text-align: center;
+        display: block;
+        margin: 7px 0;
+    }
+
+    .brand-new-section {
+        width: 100%;
+    }
+
+    .brand-new-items {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .banner-section {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .copy-write-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .copy-write-section{
+        margin: 0 15px;
+    }
+
+}
