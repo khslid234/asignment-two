@@ -11,15 +11,9 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background: rgba(255, 144, 14, 0.1);
 
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
-}
 
 .button-primary {
     font-size: 20px;
@@ -33,7 +27,15 @@ header {
 /* --------------------------
 header menu and logo styles 
 ----------------------------*/
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
 
+.header-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
 .header-nav {
     width: 1000px;
     display: flex;
@@ -44,6 +46,7 @@ header menu and logo styles
 .logo-title {
     font-size: 45px;
     color: #131313;
+    text-align: center;
 }
 
 .menu-items ul li {
